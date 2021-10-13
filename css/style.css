@@ -121,17 +121,6 @@ html{
 }
 .btn1{
     padding: 10px 20px;
-    background-color: #0872b9;
-    border: 0;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: #ffffff;
-    text-transform: uppercase;
-    margin-right: 20px;
-}
-.btn2{
-    padding: 10px 17px;
     background-color: transparent;
     border: 1px solid #ffffff;
     font-family: 'Oswald', sans-serif;
@@ -139,6 +128,27 @@ html{
     font-size: 14px;
     color: #ffffff;
     text-transform: uppercase;
+    margin-right: 20px;
+    transition: all linear .5s;
+}
+.btn1:hover{
+    background-color: #5bc5f4;
+    border: 1px solid transparent;
+}
+.btn2{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all linear .5s;
+}
+.btn2:hover{
+    background-color: #5bc5f4;
+    border: 1px solid transparent;
 }
 /* hero section end */
 
